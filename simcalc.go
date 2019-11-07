@@ -12,5 +12,6 @@ func SimCalculate(code1, code2 string) {
 // DebugCalculate calculates similarity and prints process log.
 func DebugCalculate(code1, code2 string) {
 	fmt.Println("It's a checking process with verbosed option and would print debugging information")
-	fmt.Println("Name of code file: " + code1 + " and " + code2)
+	fmt.Println("Path of code1: " + code1)
+	fmt.Println("Path of code2: " + code2)
 }
