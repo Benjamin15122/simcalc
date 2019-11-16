@@ -17,5 +17,6 @@ func DebugCalculate(code1, code2 string) error {
 	fmt.Println("It's a checking process with verbosed option and would print debugging information")
 	fmt.Println("Path of code1: " + code1)
 	fmt.Println("Path of code2: " + code2)
+
 	return nil
 }
